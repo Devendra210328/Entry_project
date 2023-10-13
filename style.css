@@ -1,0 +1,49 @@
+body{
+  background-image: url('index.jpg');
+  background-size:100% 200%;
+  text-align: center;
+  font-weight: bold;
+  /* overflow-y: hidden; */
+}
+/* img{
+  overflow:hidden;
+} */
+div.div1{
+  display:inline-block;
+  padding: 50px;
+  margin-top: 50px;
+}
+h1{
+  margin:10px 0 10px 0;
+}
+h2{
+  font-size: 50px;
+  margin-top: 0px;
+  margin-bottom: 20px;
+}
+button{
+  border: none;
+  font-weight: bold;
+  padding-top: 10px;
+  padding-bottom:10px;
+  width: 200px;
+  color: white;
+  margin-bottom: 5px;
+  border-radius: 5px;
+}
+#increment-btn{
+  background: darkred;
+}
+#increment-btn:hover{
+  width: 180px;
+}
+#save-btn{
+  background: #008a1c;
+}
+#save-btn:hover{
+  width:180px;
+}
+#save-el{
+  font-size: 25px;
+  font-weight: bold;
+}
